@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Cormorant+SC:wght@300&family=Karla&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+:root {
+  --white: #fff;
+  --footerBack: #EFE8E8;
+  --footerBorder: #DDD9D7;
+  --black: #000;
+  --iconColor: rgba(0, 0, 0, 0.59);
+  --blackShade: #404040;
+  --grey: #BBB3AF;
+  --lightgrey: rgba(210, 210, 210, 0.79);
+  --input: #BEBEBE;
+  --placeholder: #A59D9D;
+  --btn: #B6A69D;
+  --greyShade: #8A8A8A;
+  --brown: #705B4F;
+  --brownHover: #bb8c71;
+  --cormorant: 'Cormorant', serif;
+  --cormorantSC: 'Cormorant SC', serif;
+  --cormorantGaramond: 'Cormorant Garamond', serif;
+  --karla:  'Karla', sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ababab; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
